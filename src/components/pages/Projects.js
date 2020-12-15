@@ -1,12 +1,14 @@
-import React from 'react'
-import '../../App.css'
+import React from "react";
+import "../../App.css";
+import Cards from "../Cards/Cards";
+import HeroSection from "../Hero/Hero";
+// import Footer from '../Footer/Footer';
 
-export default function Projects(){
+export default function Projects() {
   return (
-    <h1 className='projects'>
-      Projects
-    </h1>
-  )
-
-
+    <>
+      {/* <HeroSection /> */}
+      <Cards />
+    </>
+  );
 }

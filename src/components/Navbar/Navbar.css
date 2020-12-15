@@ -1,7 +1,10 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background-color: #fff;
+  
+  /* linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   height: 80px;
   display: flex;
+  border-bottom: 1px solid #b29600;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
@@ -19,10 +22,11 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: #b29600;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
@@ -50,7 +54,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color:#b29600;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -64,7 +68,7 @@
 }
 
 .fa-bars {
-  color: #fff;
+  color: #242424;
 }
 
 .nav-links-mobile {
@@ -131,7 +135,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: #242424;
     font-size: 2rem;
   }
 

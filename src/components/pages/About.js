@@ -1,12 +1,13 @@
-import React from 'react'
-import '../../App.css'
+import React from "react";
+import "../../App.css";
+import Cards from "../Cards/Cards";
+import HeroSection from "../Hero/Hero";
 
-export default function About(){
+export default function About() {
   return (
-    <h1 className='about'>
-      About
-    </h1>
-  )
-
-
+    <>
+      <HeroSection />
+      <Cards />
+    </>
+  );
 }

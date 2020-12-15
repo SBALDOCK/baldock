@@ -1,51 +1,47 @@
-import React from 'react'
-import CardItems from './CardItems'
-import './Cards.css';
+import React from "react";
+import CardItem from "./CardItem";
+import "./Cards.css";
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className="cards">
       <h1>Check this out</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItems 
-            src='images/aquarium.png'
-            text='Check out my work'
-            label='Adventure'
-            path='/projects'
+            <CardItem
+              src="https://i.ibb.co/3pyDXF0/devpendency.png"
+              text="The Devpendency App"
+              label="placeholder"
+              link="https://github.com/Devpendency-App/devpendency-app"
             />
-            <CardItems 
-            src='images/aquarium.png'
-            text='Check out my work'
-            label='Adventure'
-            path='/projects'
+            <CardItem
+              src="https://i.ibb.co/VmYm5GN/command.png"
+              text="Command Love Interface"
+              label="placeholder"
+              link="https://github.com/Async-and-the-Awaits/Async-and-the-Awaits"
             />
           </ul>
           <ul className="cards__items">
-            <CardItems 
-            src='images/aquarium.png'
-            text='Check out my work'
-            label='Adventure'
-            path='/projects'
+            <CardItem
+              src="https://i.ibb.co/SnDSGWQ/weekend.png"
+              text="Weekend Warrior"
+              label="placeholder"
+              link="http://weekend-warrior-app.herokuapp.com/"
             />
-            <CardItems 
-            src='images/aquarium.png'
-            text='Check out my work'
-            label='Adventure'
-            path='/projects'
-            />
-            <CardItems 
-            src='images/aquarium.png'
-            text='Check out my work'
-            label='Adventure'
-            path='/projects'
+            <CardItem
+              src="https://i.ibb.co/5B1wbf9/aquarium.png"
+              text="Zen Aquarium"
+              label="placeholder"
+              link="https://seanjmurray.github.io/while-201-project/index.html"
             />
           </ul>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Cards
+// https://i.ibb.co/3pyDXF0/devpendency.png
+
+export default Cards;
