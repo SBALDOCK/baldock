@@ -28,8 +28,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/about" className="navbar-logo" onClick={closeMobileMenu}>
-            STEVE &nbsp; BALDOCK
-            {/* <i className='fab fa-typo3' /> */}
+            STEVE &nbsp; BALDOCK <br />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -56,7 +55,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
-                Blog
+                Thoughts
               </Link>
             </li>
           </ul>

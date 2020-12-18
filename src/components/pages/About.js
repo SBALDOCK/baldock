@@ -1,13 +1,13 @@
 import React from "react";
 import "../../App.css";
-import Cards from "../Cards/Cards";
 import HeroSection from "../Hero/Hero";
+import Bio from "../Bio/Bio";
 
 export default function About() {
   return (
     <>
       <HeroSection />
-      <Cards />
+      <Bio />
     </>
   );
 }
