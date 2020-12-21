@@ -1,7 +1,6 @@
 import React from "react";
-import "./Bio.css";
 
-function Bio() {
+function ContactMe() {
   return (
     <div className="bio">
       <p className="about_me">
@@ -21,4 +20,4 @@ function Bio() {
   );
 }
 
-export default Bio;
+export default ContactMe;
