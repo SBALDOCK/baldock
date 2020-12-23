@@ -1,6 +1,11 @@
 import React from "react";
 import "../../App.css";
+import Blog from "../Blog/Blog";
 
 export default function Thoughts() {
-  return <h1 className="thoughts">These are some thoughts that I have</h1>;
+  return (
+    <>
+      <Blog />
+    </>
+  );
 }

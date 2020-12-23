@@ -11,13 +11,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="https://i.ibb.co/3pyDXF0/devpendency.png"
-              text="Intuitive productivity tool for software developers on the go"
+              text="Intuitive Productivity Tool For Software Developers On The Go"
               // label="placeholder"
               link="https://github.com/Devpendency-App/devpendency-app/blob/Dev/README.md"
             />
             <CardItem
               src="https://i.ibb.co/VmYm5GN/command.png"
-              text="Backend chat app for overworked software developers"
+              text="Backend Chat App For Overworked Software Developers"
               // label="placeholder"
               link="https://github.com/Async-and-the-Awaits/Async-and-the-Awaits/blob/Dev/README.md"
             />
@@ -25,13 +25,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="https://i.ibb.co/SnDSGWQ/weekend.png"
-              text="Location-based outdoor weekend activity finder"
+              text="Location-Based Outdoor Weekend Activity Finder"
               // label="placeholder"
               link="http://weekend-warrior-app.herokuapp.com/"
             />
             <CardItem
               src="https://i.ibb.co/5B1wbf9/aquarium.png"
-              text="Interactive stress relief application for an anxious world"
+              text="Interactive Stress Relief Application For An Anxious World"
               // label="placeholder"
               link="https://seanjmurray.github.io/while-201-project/index.html"
             />

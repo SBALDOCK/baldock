@@ -1,9 +1,8 @@
 import React from "react";
-import "./Bio.css";
 
-function Bio() {
+function Blog() {
   return (
-    <div className="bio">
+    <div>
       <p className="about_me">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer magna
         tellus, luctus sit amet leo id, malesuada sollicitudin mauris.
@@ -86,4 +85,4 @@ function Bio() {
   );
 }
 
-export default Bio;
+export default Blog;
