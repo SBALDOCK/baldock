@@ -1,8 +1,8 @@
 .navbar {
   background-color: #fff;
-  
+
   /* linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  height: 80px;
+  height: 85px;
   display: flex;
   border-bottom: 1px solid #b29600;
   justify-content: center;
@@ -26,7 +26,7 @@
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
@@ -54,7 +54,7 @@
 }
 
 .nav-links {
-  color:#b29600;
+  color: #b29600;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -63,7 +63,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 3px solid #b29600;
   transition: all 0.2s ease-out;
 }
 
