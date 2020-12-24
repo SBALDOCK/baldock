@@ -1,7 +1,7 @@
 /* This is where I will put a hero image */
 .hero-container {
   background-image: url("../../images/me.png");
-  background-position: 50% 20%;
+  background-position: 50% 15%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,7 @@
   .hero-container > h1 {
     font-size: 30px;
     margin-left: 60%;
-    margin-bottom: 40%;
+    margin-bottom: 50%;
   }
 }
 
@@ -58,7 +58,7 @@
   .hero-container > h1 {
     font-size: 20px;
     margin-left: 65%;
-    margin-bottom: 75%;
+    margin-bottom: 55%;
   }
 
   .hero-container > p {
@@ -75,9 +75,18 @@
   }
 }
 
-@media screen and (max-width: 500) {
+@media screen and (max-width: 480px) {
   .hero-container {
-    background-image: url("../../images/small_me.png");
-    background-position: center;
+    background-image: url("../../images/me.png");
+    background-position: 50% 20%;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+  }
+
+  .hero-container > h1 {
+    visibility: hidden;
   }
 }
