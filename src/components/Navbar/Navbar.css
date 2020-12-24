@@ -163,11 +163,16 @@
   .NavbarItems {
     position: relative;
   }
+}
 
+@media screen and (max-width: 500px) {
+  .NavbarItems {
+    position: relative;
+  }
   .navbar-logo {
     position: absolute;
     top: 25%;
-    left: -2em;
+    left: -1rem;
     transform: translate(25%, 50%);
     font-size: 1em;
   }
