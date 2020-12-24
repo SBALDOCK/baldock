@@ -1,8 +1,6 @@
 .navbar {
   background-color: #fff;
-
-  /* linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  height: 85px;
+  height: 90px;
   display: flex;
   border-bottom: 1px solid #b29600;
   justify-content: center;
@@ -25,6 +23,7 @@
   color: #b29600;
   justify-self: start;
   margin-left: 20px;
+  max-height: 90px;
   cursor: pointer;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
@@ -119,11 +118,10 @@
 
   .navbar-logo {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 9px;
+    left: -1rem;
     transform: translate(25%, 50%);
   }
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -158,5 +156,19 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 25%;
+    left: -2em;
+    transform: translate(25%, 50%);
+    font-size: 1em;
   }
 }
