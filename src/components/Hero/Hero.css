@@ -3,6 +3,7 @@
   background-image: url("../../images/me.png");
   background-position: 50% 20%;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 125vh;
   width: 100%;
   display: flex;
