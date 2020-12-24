@@ -41,19 +41,23 @@
   margin-left: 4px;
 }
 
+.hero-tag {
+  position: relative;
+}
+
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 30px;
-    margin-left: 70%;
-    margin-bottom: 10%;
+    margin-left: 60%;
+    margin-bottom: 25%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
-    font-size: 15px;
-    margin-left: 80%;
-    margin-bottom: 10%;
+    font-size: 20px;
+    margin-left: 65%;
+    margin-bottom: 40%;
   }
 
   .hero-container > p {
@@ -67,5 +71,11 @@
 
   .btn {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500) {
+  .hero-container {
+    background-image: url("../../images/small_me.png");
   }
 }
