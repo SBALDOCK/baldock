@@ -19,6 +19,7 @@
   font-size: 40px;
   margin-left: 60%;
   margin-bottom: 10%;
+  position: relative;
 }
 
 .hero-container > p {
@@ -49,7 +50,7 @@
   .hero-container > h1 {
     font-size: 30px;
     margin-left: 60%;
-    margin-bottom: 25%;
+    margin-bottom: 40%;
   }
 }
 
@@ -57,7 +58,7 @@
   .hero-container > h1 {
     font-size: 20px;
     margin-left: 65%;
-    margin-bottom: 40%;
+    margin-bottom: 75%;
   }
 
   .hero-container > p {
@@ -77,5 +78,6 @@
 @media screen and (max-width: 500) {
   .hero-container {
     background-image: url("../../images/small_me.png");
+    background-attachment: initial;
   }
 }
