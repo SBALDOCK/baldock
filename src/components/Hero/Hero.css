@@ -78,6 +78,6 @@
 @media screen and (max-width: 500) {
   .hero-container {
     background-image: url("../../images/small_me.png");
-    background-attachment: contain;
+    background-position: center;
   }
 }
