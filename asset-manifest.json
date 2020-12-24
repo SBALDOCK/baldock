@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/baldock/static/css/main.437dea1d.chunk.css",
+    "main.css": "/baldock/static/css/main.c920bbd8.chunk.css",
     "main.js": "/baldock/static/js/main.52caf6fc.chunk.js",
     "main.js.map": "/baldock/static/js/main.52caf6fc.chunk.js.map",
     "runtime-main.js": "/baldock/static/js/runtime-main.69a52532.js",
@@ -8,14 +8,14 @@
     "static/js/2.055a0ecd.chunk.js": "/baldock/static/js/2.055a0ecd.chunk.js",
     "static/js/2.055a0ecd.chunk.js.map": "/baldock/static/js/2.055a0ecd.chunk.js.map",
     "index.html": "/baldock/index.html",
-    "static/css/main.437dea1d.chunk.css.map": "/baldock/static/css/main.437dea1d.chunk.css.map",
+    "static/css/main.c920bbd8.chunk.css.map": "/baldock/static/css/main.c920bbd8.chunk.css.map",
     "static/js/2.055a0ecd.chunk.js.LICENSE.txt": "/baldock/static/js/2.055a0ecd.chunk.js.LICENSE.txt",
-    "static/media/Hero.css": "/baldock/static/media/me.7692432c.png"
+    "static/media/Hero.css": "/baldock/static/media/small_me.6437e063.png"
   },
   "entrypoints": [
     "static/js/runtime-main.69a52532.js",
     "static/js/2.055a0ecd.chunk.js",
-    "static/css/main.437dea1d.chunk.css",
+    "static/css/main.c920bbd8.chunk.css",
     "static/js/main.52caf6fc.chunk.js"
   ]
 }
